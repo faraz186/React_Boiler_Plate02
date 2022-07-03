@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Logincontainer{ 
+  position: absolute;
+  left: 24%;
+  top: 17%;
+  border: 1px solid black;
+  border-right: 5px solid green;
+  border-left: 5px solid green;
+  padding: 200px 250px;
+  border-radius: 10px;
+  width: 51%;
+}
+
+.Logincontainer h1{
+  font-size: 50px;
+  color: #042e43;
+  font-weight: 900;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  left: 41.5%;
+  background-color: aquamarine;
+  top: -10%;
+  border: 1px solid black;
+  padding: 4px 8px;
+}
+
+.Logincontainer .input1{
+  margin: 50px;
+  position: absolute;
+  left: 210px;
+  top: 10%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px; 
+}
+
+.Logincontainer .input2{
+  margin: 50px;
+  position: absolute;
+  left: 210px;
+  top: 34%;
+  border: 2px solid ;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: #282c34;
+  font-size: 20px;
+}
+
+.button1{
+  position: absolute;
+  top: 65%;
+  margin-top: 10px;
+  left: 33%;
+  font-size: 18px;
+}
+
+.button2{
+  position: absolute;
+  margin-top: 12px;
+  top: 79%;
+  left: 35%;
+
+}
+
+.signcontainer{
+  position: absolute;
+  left: 25%;
+  top: 17%;
+  border: 1px solid black;
+  border-right: 5px solid green;
+  border-left: 5px solid green;
+  padding: 230px 250px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.signcontainer h1{
+  font-size: 50px;
+  color: #042e43;
+  font-weight: 900;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  left: 40%;
+  top: -9%;
+  border: 1px solid black;
+  padding: 4px 8px;
+  background-color: aquamarine;
+}
+
+.signcontainer .input4{
+  margin: 50px;
+  position: absolute;
+  left: 210px;
+  top: 12%;
+  border: 2px solid ;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: #282c34;
+  font-size: 21px;
+}
+
+.signcontainer .input5
+{
+  margin: 50px;
+  position: absolute;
+  left: 210px;
+  top: 33%;
+  border: 2px solid ;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: #282c34;
+  font-size: 21px;
+}
+
+.signcontainer .input6{
+  margin: 50px;
+  position: absolute;
+  left: 210px;
+  top: 53.5%;
+  border: 2px solid ;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: #282c34;
+  font-size: 21px;
+}
+
+.button5{
+  position: absolute;
+  top: 77%;
+  margin-top: 10px;
+  left: 33%;
+  font-size: 18px;
+}
+
+.button6{
+  position: absolute;
+  margin-top: 12px;
+  top: 87%;
+  left: 45%;
+}
+
+.container{
+  position: absolute;
+  top: 33%;
+  left: 20%;
+  border: 1px solid black;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+}
+
+.container .heading{
+    font-size: 30px;
+}
+
+.error{
+  
+}
